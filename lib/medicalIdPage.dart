@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_solution_challenge/nfcSharing.dart';
 class MedicalIdPage extends StatefulWidget {
-  const MedicalIdPage({super.key});
+  final fullname;
+  const MedicalIdPage({super.key, required this.fullname});
 
   @override
   State<MedicalIdPage> createState() => _MedicalIdPageState();
@@ -31,7 +32,7 @@ centerTitle: true,
                 radius: 30,
                 backgroundImage:AssetImage("assets/img.png"),
               ),
-              title: Text("Krish Aggarwal",style: TextStyle(color: Colors.black,fontSize: 18),),
+              title: Text(widget.fullname,style: TextStyle(color: Colors.black,fontSize: 18),),
               subtitle: Text("Male,18 years,Blood Group: B+",style: TextStyle(color: Colors.grey,fontSize: 15),),
             ),
           ),

@@ -25,8 +25,8 @@ class _BottomNavBarPageState extends State<BottomNavBarPage> {
   @override
   Widget build(BuildContext context) {
     final List<Widget> pages = [
-      HomePage(fullname: widget.fullname),
-      MedicalIdPage(),
+      HomePage(),
+      MedicalIdPage(fullname: widget.fullname),
       SOSPage(),
       SettingsPage(),
     ];

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_solution_challenge/SOS/sosSettingsPage.dart';
 
+import '../ai_assistant.dart';
+
 class SOSPage extends StatefulWidget {
   const SOSPage({Key? key}) : super(key: key);
 
@@ -118,6 +120,7 @@ class _SOSPageState extends State<SOSPage> {
               color: Colors.white,
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
               child: ListTile(
+                onTap: (){Get.to(EmergencyAIAssistantPage());},
                 contentPadding: EdgeInsets.all(height * 0.01),
                 leading: CircleAvatar(
                   radius: 24,
@@ -125,7 +128,7 @@ class _SOSPageState extends State<SOSPage> {
                   child: const Icon(Icons.volunteer_activism_outlined, color: Colors.blue, size: 24),
                 ),
                 title: Text(
-                  'First Aid Guide',
+                  'AI First Aid Guide',
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black),
                 ),
                 subtitle: Text(

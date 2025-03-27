@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class HomePage extends StatefulWidget {
-  final String fullname;
-  HomePage({super.key, required this.fullname});
+  HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();

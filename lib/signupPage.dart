@@ -1,10 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'BottomNavBar.dart';
 import 'Utils/utils.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
+import 'bottom_nav_bar.dart';
 import 'loginPage.dart';
 
 

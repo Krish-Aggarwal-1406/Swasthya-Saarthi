@@ -4,9 +4,9 @@ import 'package:get/get.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
-import 'BottomNavBar.dart';
 import 'SignUpPage.dart';
 import 'Utils/utils.dart';
+import 'bottom_nav_bar.dart';
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
