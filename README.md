@@ -16,48 +16,48 @@ This is an emergency medical app designed to assist users in critical situations
 ### Get Started Page
 *Description:* The introductory screen where users are welcomed and guided through the app setup.
 
-![Get Started Screenshot](assets/img_12.png)
+<img src="assets/img_12.png" alt="Get Started Screenshot" width="400"/>
 
 ### Home Page
 *Description:* The main dashboard that provides quick access to essential features such as medical ID, SOS, and AI assistant.
 
-![Home Screenshot](assets/img_15.png)
+<img src="assets/img_15.png" alt="Home Screenshot" width="400"/>
 
 ### Login & Signup Pages
 *Description:* Screens for user authentication, allowing new users to register and existing users to log in securely.
 
-![Login Screenshot](assets/img_14.png)
-![Signup Screenshot](assets/img_13.png)
+<img src="assets/img_14.png" alt="Login Screenshot" width="400"/>
+<img src="assets/img_13.png" alt="Signup Screenshot" width="400"/>
 
 ### Medical ID Page
 *Description:* Stores critical medical information, including allergies, blood type, and emergency contacts.
 
-![Medical ID Screenshot](assets/img_16.png)
+<img src="assets/img_16.png" alt="Medical ID Screenshot" width="400"/>
 
 ### NFC Sharing Page
 *Description:* Enables users to share medical details with others using NFC technology.
 
-![NFC Sharing Screenshot](assets/img_21.png)
+<img src="assets/img_21.png" alt="NFC Sharing Screenshot" width="400"/>
 
 ### Settings Page
 *Description:* Allows users to configure preferences, notifications, and other personalization options.
 
-![Settings Screenshot](assets/img_18.png)
+<img src="assets/img_18.png" alt="Settings Screenshot" width="400"/>
 
 ### SOS Page
 *Description:* Provides quick access to emergency contacts and allows users to trigger an SOS alert.
 
-![SOS Page Screenshot](assets/img_17.png)
+<img src="assets/img_17.png" alt="SOS Page Screenshot" width="400"/>
 
 ### SOS Settings Page
 *Description:* Customization options for SOS alerts, including preferred contacts and emergency message configurations.
 
-![SOS Settings Screenshot](assets/img_19.png)
+<img src="assets/img_19.png" alt="SOS Settings Screenshot" width="400"/>
 
 ### AI Assistant
 *Description:* AI-powered chatbot that assists users with medical inquiries and guidance.
 
-![AI Assistant Screenshot](assets/img_20.png)
+<img src="assets/img_20.png" alt="AI Assistant Screenshot" width="400"/>
 
 
 ## Contributing
