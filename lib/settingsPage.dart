@@ -23,6 +23,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.white,
         centerTitle: true,
         automaticallyImplyLeading: false, // Removes the back arrow
         title: Text(

@@ -11,14 +11,13 @@ class EmergencyAIAssistantPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.blue,
         elevation: 1,
         centerTitle: true,
         title: Text(
           "Emergency AI Assistant",
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
         actions: [

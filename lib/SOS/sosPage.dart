@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_solution_challenge/SOS/sosSettingsPage.dart';
+import 'package:google_solution_challenge/nfcSharing.dart';
 
 import '../ai_assistant.dart';
 
@@ -95,6 +96,7 @@ class _SOSPageState extends State<SOSPage> {
               color: Colors.white,
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
               child: ListTile(
+                onTap: (){Get.to(NFCSharingPage());},
                 contentPadding: EdgeInsets.all(height * 0.01),
                 leading: CircleAvatar(
                   radius: 24,
